@@ -1,0 +1,89 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("fondo.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+section#conversion {
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107; 
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ffca28; 
+}
+
+#result {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
